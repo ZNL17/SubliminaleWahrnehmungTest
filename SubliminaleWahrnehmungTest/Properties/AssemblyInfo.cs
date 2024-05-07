@@ -6,12 +6,12 @@ using System.Runtime.InteropServices;
 // Attribute gesteuert. Ändern Sie diese Attributwerte, um die Informationen zu ändern,
 // die einer Assembly zugeordnet sind.
 [assembly: AssemblyTitle("SubliminaleWahrnehmungTest")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("SubliminaleWahrnehmungTest")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("SubliminaleWahrnehmungTest")]
 [assembly: AssemblyProduct("SubliminaleWahrnehmungTest")]
 [assembly: AssemblyCopyright("Copyright ©  2024")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyTrademark("SubliminaleWahrnehmungTest")]
 [assembly: AssemblyCulture("")]
 
 // Durch Festlegen von ComVisible auf FALSE werden die Typen in dieser Assembly
