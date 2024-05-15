@@ -69,6 +69,7 @@
     <Compile Include="IViewSubTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Testergebnis.cs" />
     <Compile Include="View.cs">
       <SubType>Form</SubType>
     </Compile>
