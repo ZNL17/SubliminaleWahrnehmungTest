@@ -65,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ControllerSubTest.cs" />
+    <Compile Include="IControllerSubTest.cs" />
     <Compile Include="IModelSubTest.cs" />
     <Compile Include="IViewSubTest.cs" />
     <Compile Include="Program.cs" />

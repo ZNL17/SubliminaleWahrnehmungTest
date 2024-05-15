@@ -8,6 +8,9 @@ namespace SubliminaleWahrnehmungTest
 {
     internal static class Program
     {
+        private IModelSubTest modelSubTest;
+        private IViewSubTest viewSubTest;
+        private IControllerSubTest controllerSubTest;
         /// <summary>
         /// Der Haupteinstiegspunkt für die Anwendung.
         /// </summary>
