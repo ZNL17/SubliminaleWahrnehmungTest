@@ -1,4 +1,7 @@
-﻿namespace SubliminaleWahrnehmungTest
+﻿using System.Drawing;
+using System.Windows.Forms;
+
+namespace SubliminaleWahrnehmungTest
 {
     partial class ViewSubTest
     {

@@ -13,8 +13,5 @@ namespace SubliminaleWahrnehmungTest
         void show(string BildPfad);
         void show(int Ziffer);
         Testergebnis show();
-
-        //fjdslkfj
-        //test
     }
 }

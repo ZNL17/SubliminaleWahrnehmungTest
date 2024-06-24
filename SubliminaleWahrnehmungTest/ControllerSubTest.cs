@@ -6,19 +6,39 @@ using System.Threading.Tasks;
 
 namespace SubliminaleWahrnehmungTest
 {
-    internal class ControllerSubTest
+    internal class ControllerSubTest : IControllerSubTest
     {
         private IModelSubTest modelSubTest;
         private IViewSubTest viewSubTest;
-        
-        public void controllerSubTest() { }
 
-        public void saveTestergebnis() { }
+        void IControllerSubTest.setModel(IModelSubTest modelSubTest)
+        {
+            throw new NotImplementedException();
+        }
 
-        public void showZiffern() { }
-        public void showBilder() { }
+        void IControllerSubTest.setView(IViewSubTest ViewSubTest)
+        {
+            throw new NotImplementedException();
+        }
 
-        public bool checkProband(int idProband, int pwd) { return true; }
-        //jdsnfjkshfkjshfkjs
+        void IControllerSubTest.saveTestergebnis()
+        {
+            throw new NotImplementedException();
+        }
+
+        void IControllerSubTest.showZiffern()
+        {
+            throw new NotImplementedException();
+        }
+
+        void IControllerSubTest.showBilder()
+        {
+            throw new NotImplementedException();
+        }
+
+        bool IControllerSubTest.checkProband(int idProband, int pwd)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

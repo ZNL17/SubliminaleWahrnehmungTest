@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SubliminaleWahrnehmungTest
 {
-    internal class Testergebnis
+    public class Testergebnis
     {
 
         private int idProband = -1;

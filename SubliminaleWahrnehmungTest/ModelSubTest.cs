@@ -6,16 +6,12 @@ using System.Threading.Tasks;
 
 namespace SubliminaleWahrnehmungTest
 {
-    internal class ModelSubTest
+    internal class ModelSubTest : IModelSubTest
     {
         ViewSubTest viewSubTest;
         IControllerSubTest controllerSubTest;
 
-        ModelSubTest();
-        setView(IViewSubTest View);
-        setController(IControllerSubTest Controller);
-        save(Testergebnis testergebnis);
-
-
+        IViewSubTest IModelSubTest.SetView { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        IControllerSubTest IModelSubTest.SetController { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
     }
 }
