@@ -28,7 +28,7 @@ namespace SubliminaleWahrnehmungTest
 
         public Testergebnis Show()
         {
-
+            return new Testergebnis();
         }
 
         private void buttonStart_Click(object sender, EventArgs e)

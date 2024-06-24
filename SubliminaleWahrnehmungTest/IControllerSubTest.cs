@@ -9,12 +9,12 @@ namespace SubliminaleWahrnehmungTest
 {
     internal interface IControllerSubTest
     {
-        public void setModel(IModelSubTest modelSubTest);
-        public void setView(IViewSubTest ViewSubTest);
+        void setModel(IModelSubTest modelSubTest);
+        void setView(IViewSubTest ViewSubTest);
 
-        public void saveTestergebnis();
-        public void showZiffern();
-        public void showBilder();
-        public bool checkProband(int idProband, int pwd);
+        void saveTestergebnis();
+        void showZiffern();
+        void showBilder();
+        bool checkProband(int idProband, int pwd);
     }
 }
